@@ -48,5 +48,11 @@ namespace _21_02_15_SamRab_04
         {
             pictureBox2.Image = Properties.Resources.file1;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Image.RotateFlip(RotateFlipType.Rotate90FlipX);
+            pictureBox2.Refresh();
+        }
     }
 }
