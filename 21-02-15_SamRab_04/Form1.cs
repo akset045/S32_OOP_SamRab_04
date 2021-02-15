@@ -43,5 +43,10 @@ namespace _21_02_15_SamRab_04
             g.DrawString("Дуга ", f, f1, 210, 190);
             g.DrawString("Сектор ", f, f1, 210, 240);
         }
-     }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pictureBox2.Image = Properties.Resources.file1;
+        }
+    }
 }

@@ -113,7 +113,8 @@ namespace _21_02_15_SamRab_04
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Location = new System.Drawing.Point(27, 99);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(341, 309);
+            this.pictureBox2.Size = new System.Drawing.Size(421, 310);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -138,6 +139,7 @@ namespace _21_02_15_SamRab_04
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "3ИП-1-11-18 / Аксенов Т.О.";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
