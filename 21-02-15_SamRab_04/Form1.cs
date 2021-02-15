@@ -17,11 +17,10 @@ namespace _21_02_15_SamRab_04
             InitializeComponent();
         }
 
-       
-
         private void button1_Click(object sender, EventArgs e)
         {
             Graphics g = Graphics.FromHwnd(pictureBox1.Handle);
+            g.Clear(pictureBox1.BackColor);
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
@@ -44,5 +43,5 @@ namespace _21_02_15_SamRab_04
             g.DrawString("Дуга ", f, f1, 210, 190);
             g.DrawString("Сектор ", f, f1, 210, 240);
         }
-    }
+     }
 }
