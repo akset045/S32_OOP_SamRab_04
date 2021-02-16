@@ -76,7 +76,7 @@ namespace _21_02_15_SamRab_04
             this.tabControl1.Location = new System.Drawing.Point(1, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(894, 697);
+            this.tabControl1.Size = new System.Drawing.Size(894, 612);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -124,7 +124,7 @@ namespace _21_02_15_SamRab_04
             this.tabPage3.Controls.Add(this.pictureBox3);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(886, 671);
+            this.tabPage3.Size = new System.Drawing.Size(886, 586);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Задание 3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -158,7 +158,7 @@ namespace _21_02_15_SamRab_04
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.InitialImage = null;
-            this.pictureBox5.Location = new System.Drawing.Point(539, 424);
+            this.pictureBox5.Location = new System.Drawing.Point(539, 375);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(261, 206);
@@ -168,9 +168,8 @@ namespace _21_02_15_SamRab_04
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox4.InitialImage = null;
             this.pictureBox4.Location = new System.Drawing.Point(279, 185);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(0);
@@ -196,7 +195,7 @@ namespace _21_02_15_SamRab_04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(898, 699);
+            this.ClientSize = new System.Drawing.Size(898, 614);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "3ИП-1-11-18 / Аксенов Т.О.";
