@@ -46,7 +46,7 @@ namespace _21_02_15_SamRab_04
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBox2.Image = Properties.Resources.file1;
+            pictureBox2.Image = Properties.Resources.file2;
             
         }
 
@@ -59,9 +59,9 @@ namespace _21_02_15_SamRab_04
         private void OnPaint(object sender, PaintEventArgs e)
         {
             
-            pictureBox3.Image = Properties.Resources.file1;
-            pictureBox4.Image = Properties.Resources.file2;
-            pictureBox5.Image = Properties.Resources.file3;
+            pictureBox3.Image = Properties.Resources.file1.GetThumbnailImage(Width / 3, Height / 3, null, new IntPtr());
+            pictureBox4.Image = Properties.Resources.file2.GetThumbnailImage(Width, Height, null, new IntPtr());
+            pictureBox5.Image = Properties.Resources.file1.GetThumbnailImage(260, 260, null, new IntPtr());
 
         }
     }
