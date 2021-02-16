@@ -103,7 +103,7 @@ namespace _21_02_15_SamRab_04
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(788, 605);
+            this.tabPage2.Size = new System.Drawing.Size(788, 272);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Задание 2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -129,7 +129,7 @@ namespace _21_02_15_SamRab_04
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Location = new System.Drawing.Point(27, 99);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(421, 310);
+            this.pictureBox2.Size = new System.Drawing.Size(421, 0);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -138,7 +138,7 @@ namespace _21_02_15_SamRab_04
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(788, 605);
+            this.tabPage3.Size = new System.Drawing.Size(788, 375);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Задание 3";
             this.tabPage3.UseVisualStyleBackColor = true;
