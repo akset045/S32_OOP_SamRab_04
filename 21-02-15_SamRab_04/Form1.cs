@@ -47,12 +47,22 @@ namespace _21_02_15_SamRab_04
         private void Form1_Load(object sender, EventArgs e)
         {
             pictureBox2.Image = Properties.Resources.file1;
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             pictureBox2.Image.RotateFlip(RotateFlipType.Rotate90FlipX);
             pictureBox2.Refresh();
+        }
+
+        private void OnPaint(object sender, PaintEventArgs e)
+        {
+            
+            pictureBox3.Image = Properties.Resources.file1;
+            pictureBox4.Image = Properties.Resources.file2;
+            pictureBox5.Image = Properties.Resources.file3;
+
         }
     }
 }
